@@ -1,0 +1,7 @@
+~~~~~~~~~~~~~~~~~~~Training Linear Regression~~~~~~~~~~~~~~~~~~~
+Achieved RMSE of 332.76789076927827 on training data
+Achieved RMSE of 806.6202793687579 on validation data
+
+~~~~~~~~~~~~~~~~~~~Training Random Forest~~~~~~~~~~~~~~~~~~~
+Achieved RMSE of 526.7433033098621 on training data
+Achieved RMSE of 538.565862801748 on validation data
