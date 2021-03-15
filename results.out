@@ -7,6 +7,6 @@ Achieved RMSE of 526.7433033098621 on training data
 Achieved RMSE of 538.565862801748 on validation data
 
 ~~~~~~~~~~~~~~~~~~~Finetuning Bert~~~~~~~~~~~~~~~~~~~
-Total training loss for epoch: 4 is: 106.00519506189207
-Total eval loss for epoch: 4 is: 125.75546357125947
+Total training loss for epoch: 4 is: 79.58408731802014
+Total eval loss for epoch: 4 is: 68.55604594519701
 

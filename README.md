@@ -42,6 +42,6 @@ Fine tune bert by following steps:
 1. Move to `src` directory: `cd src` 
 2. Train random forest: `python3.8 finetune.py <input_filepath> --epochs <num_epochs> --data_frac <fraction of data>`
 	1. I used 5 epochs and 0.1 fraction of data(around 20k datapoints).
-3. We were able to minimize RMSE upto `106.00519506189207` and `125.75546357125947` for training and test data respectively.
+3. We were able to minimize RMSE upto `79.58408731802014` and `68.55604594519701` for training and test data respectively.
 
 We see a big improvement with bert. However, this is a very big model and requires significant resources to train.
