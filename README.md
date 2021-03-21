@@ -37,6 +37,7 @@ Train a Random forest model by following the steps below:
 As we can see there is definitly improvement on test set over linear regression. The model isn't overtrained, but can we reduce the error further? We will try to finetune the ***Hugging face*** pretrained tranformers in the next step.
 
 ### Fine tune bert
+//Update: GPU Issue fixed with pytorch1.7. I will update the results after finishing traning on full dataset.
 Hugging face was throwing an error on my GPU. So I reduced the number of samples in dataset and ran the program on CPU, due to lack of time.
 Fine tune bert by following steps:
 1. Move to `src` directory: `cd src` 

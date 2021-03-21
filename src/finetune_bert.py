@@ -10,9 +10,9 @@ from transformers import BertModel
 
 from jeopardy_pytorch_dataset import JeopardyDataset, tokenizer
 
-device = "cpu" ##"cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda" if torch.cuda.is_available() else "cpu"
 eval_every = 1
-batch_size = 8
+batch_size = 12
 
 
 class ValueRegressor(torch.nn.Module):
