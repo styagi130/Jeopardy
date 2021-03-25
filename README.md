@@ -40,7 +40,7 @@ As we can see there is definitly improvement on test set over linear regression.
 Fine tune bert by following steps:
 1. Move to `src` directory: `cd src` 
 2. Train random forest: `python3.8 finetune.py <input_filepath> --epochs <num_epochs> --data_frac <fraction of data>`
-	1. I used 5 epochs and 0.1 fraction of data(around 20k datapoints).
-3. We were able to minimize RMSE upto ``46.65 and `46.16` for training and test data respectively.
+	1. I used 5 epochs and 1.0 fraction of data(Complete dataset).
+3. We were able to minimize RMSE upto `46.65` and `46.16` for training and test data respectively.
 
 We see a big improvement with bert. However, this is a very big model and requires significant resources to train.
